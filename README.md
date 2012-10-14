@@ -2,6 +2,10 @@
 
 Simple démonstration qui permet d'obtenir les coordonées latitudinales et longtitudinales en déplacant un marqueur sur une carte google Map.
 
+####Prés-requis :
+
+* Obtenez votre clé, et mettez la dans le fichier html à l'endroit dédié. le fichier html fonctionnera ensuite normalement.
+
 ####Comment ça marche :
 
 * Appel de l'API google map V3, et initialisation des événements et fonctions nécessaires.
