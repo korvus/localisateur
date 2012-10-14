@@ -7,7 +7,7 @@ Simple démonstration qui permet d'obtenir les coordonées latitudinales et long
 * Appel de l'API google map V3, et initialisation des événements et fonctions nécessaires.
 * Exemple d'utilisation sur [http://simonertel.net/dossiers/ggmapV3.php](http://simonertel.net/dossiers/ggmapV3.php)
 * Explication du code sur [http://simonertel.net/blog/initiation-a-google-map-api-v3/](http://simonertel.net/blog/initiation-a-google-map-api-v3/)
-* Code.
+* Code javascript :
 
 		function initialisation(){
 
