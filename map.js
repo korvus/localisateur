@@ -21,7 +21,7 @@ function initialisation(){
 
 function afficherUneInfobulle(){
 
-	var aAfficher = "Latitude : "+marker.position.Za+'<br />Longtitude : '+marker.position.Ya+"<br />new google.maps.LatLng("+marker.position.Xa+","+marker.position.Ya+");";
+	var aAfficher = "Latitude : "+marker.position.Za+'<br />Longtitude : '+marker.position.Ya+"<br />new google.maps.LatLng("+marker.position.Za+","+marker.position.Ya+");";
 
 	var infowindow = new google.maps.InfoWindow({
 		content: aAfficher
