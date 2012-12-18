@@ -21,7 +21,20 @@ function initialisation(){
 
 function afficherUneInfobulle(){
 
-	var aAfficher = "Latitude : "+marker.position.Xa+'<br />Longtitude : '+marker.position.Ya+"<br />new google.maps.LatLng("+marker.position.Xa+","+marker.position.Ya+");";
+	/* Fix le changement constant de nom d'objet de la part de l'API Google Map */
+	var inc = 0;
+	for (var coords in marker.position){
+		inc++;
+		if(inc==1){
+			var posX = marker.position[coords];
+		}else if(inc==2){
+			var posY = marker.position[coords];
+		}else if(inc>2){
+			break;
+		}
+	}
+
+	var aAfficher = "Latitude : "+posX+'<br />Longtitude : '+posY+"<br />new google.maps.LatLng("+posX+","+posY+");";
 
 	var infowindow = new google.maps.InfoWindow({
 		content: aAfficher
