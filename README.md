@@ -1,6 +1,6 @@
 #Obtenez les latitudes et les longtitudes.
 
-Simple démonstration qui permet d'obtenir les coordonées latitudinales et longtitudinales en déplacant un marqueur sur une carte google Map.
+Simple démonstration de l'emploi de l'API google Map qui permet d'obtenir les coordonées latitudinales et longtitudinales en déplacant un marqueur sur une carte google Map.
 
 ####Prés-requis :
 
